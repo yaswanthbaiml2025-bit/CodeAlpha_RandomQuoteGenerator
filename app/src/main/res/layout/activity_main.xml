@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F3F0FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAILY INSPIRATION"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#6650A4"
+        android:letterSpacing="0.12"
+        android:layout_marginBottom="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❝"
+            android:textSize="55sp"
+            android:textColor="#7655B5"/>
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your quote will appear here."
+            android:textSize="22sp"
+            android:textColor="#242039"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/authorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="16sp"
+            android:textColor="#7655B5"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/newQuoteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="New Quote"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7052AC"
+        android:layout_marginTop="35dp"/>
+
+</LinearLayout>
